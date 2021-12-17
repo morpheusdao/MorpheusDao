@@ -13,7 +13,7 @@ function Main() {
                 {/* <SvgIcon color="primary" component={morph_landing} viewBox="0 0 174 40" style={{ minWidth: 174, minHeight: 40 }} /> */}
             </div>
             <div className="landing-main-btns-wrap">
-                <Link href="https://morpheus-dao.vercel.app/#/stake" target="_blank" rel="noreferrer">
+                <Link href="https://morpheus-mu.vercel.app/" target="_blank" rel="noreferrer">
                     <div className="landing-main-btn">
                         <p>Enter App</p>
                     </div>

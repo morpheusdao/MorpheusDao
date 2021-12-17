@@ -43,7 +43,7 @@ function NavContent() {
     return (
         <div className="dapp-sidebar">
             <div className="branding-header">
-                <Link href="https://morpheus-dao.vercel.app/#/stake" target="_blank">
+                <Link href="https://morpheus-mu.vercel.app/" target="_blank">
                     {/* <SvgIcon color="primary" component={morpheus_logo} viewBox="0 0 174 40" style={{ minWidth: 174, minHeight: 40 }} /> */}
                     <img className="nav-img" alt="" src={pegegg} />
                 </Link>
