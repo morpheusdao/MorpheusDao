@@ -7,8 +7,8 @@
 
     .landing-background-blobs-top{
         position: absolute;
-        //top: -200px;
-        //right: -200px;
+        top: -200px;
+        right: -200px;
         opacity: 0.6;
         z-index: 1;
 
@@ -21,6 +21,6 @@
 
 @media screen and (max-width: 1200px) {
     .landing-background{
-        //display: none;
+        display: none;
     }
 }
