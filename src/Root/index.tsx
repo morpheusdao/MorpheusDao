@@ -19,9 +19,9 @@ function Root() {
     if (loading) return <Loading />;
 
     const app = () => (
-        <HashRouter>
+        <>
             <Landing />
-        </HashRouter>
+        </>
     );
 
     return isApp() ? app() : <App />;
