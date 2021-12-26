@@ -1,6 +1,6 @@
 import React from "react";
 import "./background.scss";
-import BlobsTop from "../../../../assets/icons/image.png";
+import BlobsTop from "../../../../assets/icons/landing-blobs-top.png";
 
 import BlobsCenter from "../../../../assets/icons/landing-blobs-center.png";
 
