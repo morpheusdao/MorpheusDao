@@ -20,11 +20,11 @@ function Root() {
 
     const app = () => (
         <HashRouter>
-            <App />
+            <Landing />
         </HashRouter>
     );
 
-    return isApp() ? app() : <Landing />;
+    return isApp() ? app() : <App />;
 }
 
 export default Root;

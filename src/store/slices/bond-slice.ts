@@ -99,7 +99,7 @@ export const calcBondDetails = createAsyncThunk("bonding/calcBondDetails", async
 
     const amountInWei = ethers.utils.parseEther(value);
 
-    let bondPrice = 0,
+    let bondPrice = 1,
         bondDiscount = 0,
         valuation = 0,
         bondQuote = 0;

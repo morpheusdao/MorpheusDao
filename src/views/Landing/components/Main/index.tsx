@@ -2,14 +2,14 @@ import React from "react";
 import { Link, SvgIcon } from "@material-ui/core";
 import "./main.scss";
 import CatImg from "../../../../assets/icons/Chershire_Cat.jpeg";
-import image from "../../../../assets/icons/image.png";
+import mor from "../../../../assets/icons/mor.png";
 import { ReactComponent as morph_landing } from "../../../../assets/icons/morph_landing.svg";
 
 function Main() {
     return (
         <div className="landing-main">
             <div className="landing-main-img-wrap">
-                <img src={image} alt="" />
+                <img src={mor} alt="" />
                 {/* <SvgIcon color="primary" component={morph_landing} viewBox="0 0 174 40" style={{ minWidth: 174, minHeight: 40 }} /> */}
             </div>
             <div className="landing-main-btns-wrap">

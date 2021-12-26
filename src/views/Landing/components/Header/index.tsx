@@ -7,7 +7,8 @@ import { ReactComponent as GitHub } from "../../../../assets/icons/github.svg";
 import { ReactComponent as Twitter } from "../../../../assets/icons/twitter.svg";
 import { ReactComponent as Telegram } from "../../../../assets/icons/telegram.svg";
 import { ReactComponent as Discord } from "../../../../assets/icons/discord.svg";
-import { ReactComponent as morpheus_logo } from "../../.../assets/icons/morpheus_logo.svg";
+// import { ReactComponent as v1_svg } from "../../../../assets/icons/v1_svg.svg";
+import V1 from "../../../../assets/icons/V1.jpg";
 
 function Header() {
     const [anchorEl, setAnchorEl] = useState(null);
@@ -20,8 +21,8 @@ function Header() {
 
     return (
         <div className="landing-header">
-            <img className="nav-img" src={pegegg} />
-            {/* <SvgIcon color="primary" component={morpheus_logo} viewBox="0 0 174 40" style={{ minWidth: 174, minHeight: 40 }} /> */}
+            <img className="nav-img" src={V1} />
+            {/* <SvgIcon component={v1_svg} viewBox="0 0 174 40" style={{ minWidth: 174, minHeight: 40 }} /> */}
             <div className="landing-header-nav-wrap">
                 <Box component="div" onMouseEnter={e => handleClick(e)} onMouseLeave={e => handleClick(e)}>
                     <p className="landing-header-nav-text">Social</p>

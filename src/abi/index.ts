@@ -6,7 +6,7 @@ export { abi as StableReserveContract } from "./reserves/StableContract.json";
 export { abi as LpReserveContract } from "./reserves/LpContract.json";
 
 export { abi as OracleTokenContract } from "./tokens/MemoContract.json";
-export { abi as CypherTokenContract } from "./tokens/TimeContract..json";
+export { abi as CypherTokenContract } from "./tokens/TimeContract.json";
 export { abi as MimTokenContract } from "./tokens/MimContract.json";
 export { abi as wOracleTokenContract } from "./tokens/wMemoContract.json";
 

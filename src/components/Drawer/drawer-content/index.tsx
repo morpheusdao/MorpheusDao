@@ -15,8 +15,8 @@ import "./drawer-content.scss";
 import DocsIcon from "../../../assets/icons/stake.svg";
 import GlobeIcon from "../../../assets/icons/wonderglobe.svg";
 import classnames from "classnames";
-import pegegg from "../../../assets/icons/pngegg.png";
-// import { ReactComponent as morpheus_logo } from "../../../assets/icons/morpheus_logo.svg";
+import v1 from "../../../assets/icons/v1.png";
+// import { ReactComponent as V1 } from "../../../assets/icons/V1.svg";
 
 function NavContent() {
     const [isActive] = useState();
@@ -44,8 +44,8 @@ function NavContent() {
         <div className="dapp-sidebar">
             <div className="branding-header">
                 <Link href="https://morpheus-mu.vercel.app/" target="_blank">
-                    {/* <SvgIcon color="primary" component={morpheus_logo} viewBox="0 0 174 40" style={{ minWidth: 174, minHeight: 40 }} /> */}
-                    <img className="nav-img" alt="" src={pegegg} />
+                    {/* <SvgIcon color="primary" component={V1} viewBox="0 0 174 40" style={{ minWidth: 174, minHeight: 40 }} /> */}
+                    <img className="nav-img" alt="" src={v1} />
                 </Link>
 
                 {address && (
