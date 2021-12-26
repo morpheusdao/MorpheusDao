@@ -3,7 +3,6 @@ import { Link, SvgIcon } from "@material-ui/core";
 import "./main.scss";
 import CatImg from "../../../../assets/icons/Chershire_Cat.jpeg";
 import mor from "../../../../assets/icons/mor.png";
-import { ReactComponent as morph_landing } from "../../../../assets/icons/morph_landing.svg";
 
 function Main() {
     return (

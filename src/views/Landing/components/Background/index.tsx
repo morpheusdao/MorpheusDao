@@ -1,6 +1,6 @@
 import React from "react";
 import "./background.scss";
-import BlobsTop from "../../../../assets/icons/landing-blobs-top.png";
+import image from "../../../../assets/icons/image.png";
 
 import BlobsCenter from "../../../../assets/icons/landing-blobs-center.png";
 
@@ -8,7 +8,7 @@ function Background() {
     return (
         <div className="landing-background">
             <div className="landing-background-blobs-top">
-                <img alt="" src={BlobsTop} />
+                <img alt="" src={image} />
             </div>
         </div>
     );

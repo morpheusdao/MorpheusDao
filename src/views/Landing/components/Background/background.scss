@@ -7,14 +7,14 @@
 
     .landing-background-blobs-top{
         position: absolute;
-        top: -200px;
-        right: -200px;
-        opacity: 0.4;
+        //top: -200px;
+        //right: -200px;
+        opacity: 0.6;
         z-index: 1;
 
         img{
-            width: 784px;
-            height: 897px;
+            width: 100%;
+            height: 100%;
         }
     }
 }
